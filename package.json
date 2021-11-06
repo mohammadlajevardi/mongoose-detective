@@ -1,0 +1,40 @@
+{
+  "name": "mongoose-detective",
+  "version": "2.0.0",
+  "description": "Find the referenced model name at a specified path.",
+  "main": "./src/index.js",
+  "scripts": {
+    "lint": "standard",
+    "prepublish": "npm test",
+    "pretest": "npm run lint",
+    "test": "mocha -R spec ./test"
+  },
+  "keywords": [
+    "mongoose",
+    "model",
+    "ref",
+    "path"
+  ],
+  "author": "Pier-Luc Gendreau",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zertz/mongoose-detective"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^8.3.0",
+    "mongoose": "^5.0.0",
+    "standard": "^16.0.3"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "src/"
+  ],
+  "standard": {
+    "globals": [
+      "describe",
+      "it"
+    ]
+  }
+}
